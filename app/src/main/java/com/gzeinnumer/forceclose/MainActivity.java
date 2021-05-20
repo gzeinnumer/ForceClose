@@ -1,21 +1,19 @@
 package com.gzeinnumer.forceclose;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.gzeinnumer.forceclose.log.ExceptionHandler;
+import com.gzeinnumer.forceclose.base.BaseActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this));
         setContentView(R.layout.activity_main);
 
-        textView.setText("");
+        //trigger Force CLose Now
+        findViewById(R.id.btn).setOnClickListener(v -> textView.setText(""));
     }
 }
