@@ -2,8 +2,9 @@
 
 Use Custom View if Force Close happen,
 
-|![]()|![]()|![]()|
+|![](https://github.com/gzeinnumer/ForceClose/blob/master/preview/example1.gif)|![](https://github.com/gzeinnumer/ForceClose/blob/master/preview/example2.gif)|![](https://github.com/gzeinnumer/ForceClose/blob/master/preview/example3.gif)|
 |---|---|---|
+|Default Dialog Error|Error screen that you can customize|Error screen with log|
 
 - Manifest
 ```xml
