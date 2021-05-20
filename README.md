@@ -28,6 +28,7 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //add this code to BaseActivity to use Custom Force Close Screen
         Thread.setDefaultUncaughtExceptionHandler(new ExceptionHandler(this));
     }
 }
