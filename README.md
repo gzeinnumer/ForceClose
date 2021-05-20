@@ -4,7 +4,7 @@ Use Custom View if Force Close happen,
 
 |![](https://github.com/gzeinnumer/ForceClose/blob/master/preview/example1.gif)|![](https://github.com/gzeinnumer/ForceClose/blob/master/preview/example2.gif)|![](https://github.com/gzeinnumer/ForceClose/blob/master/preview/example3.gif)|
 |---|---|---|
-|Default Dialog Error|Error screen that you can customize|Error screen with log|
+|Default dialog error|Error screen that you can customize|Error screen with log|
 
 - Manifest
 ```xml
@@ -127,3 +127,9 @@ public class SomeThingWrongActivity extends AppCompatActivity {
 }
 ```
 [activity_some_thing_wrong.xml](https://github.com/gzeinnumer/ForceClose/blob/master/app/src/main/res/layout/activity_some_thing_wrong.xml)
+
+---
+
+```
+Copyright 2021 M. Fadli Zein
+```
