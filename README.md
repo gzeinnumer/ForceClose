@@ -125,6 +125,11 @@ public class SomeThingWrongActivity extends AppCompatActivity {
             finishAffinity();
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
+    }
 }
 ```
 [activity_some_thing_wrong.xml](https://github.com/gzeinnumer/ForceClose/blob/master/app/src/main/res/layout/activity_some_thing_wrong.xml)

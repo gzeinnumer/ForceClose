@@ -1,11 +1,11 @@
 package com.gzeinnumer.forceclose.log;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.gzeinnumer.forceclose.BuildConfig;
 import com.gzeinnumer.forceclose.R;
@@ -28,5 +28,10 @@ public class SomeThingWrongActivity extends AppCompatActivity {
         button.setOnClickListener(v -> {
             finishAffinity();
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
     }
 }
