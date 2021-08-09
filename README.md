@@ -120,6 +120,20 @@ public class SomeThingWrongActivity extends AppCompatActivity {
 
         if (BuildConfig.DEBUG) textView.setVisibility(View.VISIBLE);
         textView.setText(getIntent().getStringExtra(DATA));
+        
+        
+        
+        //String[] data = new String[]{getIntent().getStringExtra(DATA)};
+
+        //buat file dalam folder App
+        //   /storage/emulated/0/MyLibsTesting/MyFile.txt 
+        //try {
+        //    String fileName = "/"+ FunctionGLobal.getCurrentTime()+".txt";
+        //    String saveTo = "/LogsError";
+        //    FGFile.initFile(fileName, saveTo,data);
+        //} catch (Exception e){
+        //    e.printStackTrace();
+        //}
 
         button.setOnClickListener(v -> {
             finishAffinity();
